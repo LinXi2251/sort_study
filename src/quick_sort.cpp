@@ -1,7 +1,7 @@
 #include "quick_sort.h"
 int paration(int* arr, int low, int high) {
     int p = arr[low];
-
+    
     while (low < high) {
         while (low < high && arr[high] >= p)
             --high;
